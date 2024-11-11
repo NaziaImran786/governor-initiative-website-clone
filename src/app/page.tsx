@@ -14,7 +14,6 @@ export default function Home() {
           width={1440}
           object-cover
           className="absolute top-0 left-0 z-0 w-[100%] h-[806px] opacity-80 overflow-y-hidden"
-        
         />
 
         <div className="absolute top-0 left-0 z-0 w-[100%] h-[806px] bg-zinc-100 opacity-80 overflow-y-hidden"></div>
@@ -60,12 +59,12 @@ export default function Home() {
       </div>
 
       <div className="w-[100%] h-[400px] bg-[#ffffff] py-10 m-auto">
-        <h1 className="text-[27px] px-14 text-center font-extrabold text-[#044e83]">
+        <h1 className="text-[34px] px-14 text-center font-extrabold text-[#044e83]">
           Certified Cloud Applied Gernerative AI Engineer (GenEng) and
           Solorprenuer <br />
           Developing Billion-Dollar Valued Developer and Solorprenuer
         </h1>
-        <p className="text-[#27272a] text-[20px] py-10 px-16 text-justify">
+        <p className="text-[#27272a] text-[24px] py-10 px-16 text-justify">
           The pace of technological change is accelerating, big players like
           Microsoft, Amazon, Google, and OpenAI are winning by providing
           infrastructure, large AI foundation models, frameworks, 3D Metaverse
@@ -81,14 +80,14 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="h-[400px] w-[100%] bg-[#fdfdfd] py-5 px-16 grid grid-cols-[auto,1fr,1fr] gap-5">
+      <div className="h-[400px] w-[100%] bg-[#fdfdfd] py-5 px-16 grid grid-cols-[auto_auto_auto] gap-10">
         <div className="h-[300px] rounded-[10px]">
           <Image
             src="/images/col-1.png"
             alt=""
-            className="h-[300px] rounded-[10px] shadow-2xl shadow-black"
+            className="h-[100%] rounded-[10px] shadow-2xl shadow-black"
             height={300}
-            width={300}
+            width={450}
           />
         </div>
         <div className="h-[300px] rounded-[10px]">
@@ -97,7 +96,7 @@ export default function Home() {
             alt=""
             className="h-[300px] rounded-[10px] shadow-2xl shadow-black"
             height={300}
-            width={300}
+            width={450}
           />
         </div>
         <div className="h-[300px] rounded-[10px]">
@@ -106,62 +105,62 @@ export default function Home() {
             alt=""
             className="h-[300px] rounded-[10px] shadow-2xl shadow-black"
             height={300}
-            width={300}
+            width={450}
           />
         </div>
       </div>
 
-      <div className="h-[650px] w-[100%] bg-[#ffffff] mt-[-30px] px-16 rounded-xl">
+      <div className="h-[650px] w-[100%] bg-[#ffffff] mt-[-30px] px-16">
       <MySlider/>
       </div>
 
-      <div className="h-[400px] w-full bg-[#fdfdfd] py-5 px-16">
-        <h1 className=" py-5 px-2 text-[34px] font-extrabold text-[#044e83]">
+      <div className="h-[450px] w-full bg-[#fdfdfd] py-6 px-16">
+        <h1 className=" py-4 px-2 text-[38px] font-extrabold text-[#044e83]">
           Core Courses Sequance
         </h1>
 
-        <div className="h-[300px] w-[100%] bg-[#fdfdfd] py-5 px-2 grid grid-cols-4 gap-16">
+        <div className="h-[300px] w-[100%] bg-[#fdfdfd] py-5  grid grid-cols-4 gap-12">
           
             <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[260px] rounded-b-xl shadow-black shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/programming.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
                 width={250}
               />
-              <h1 className="px-4 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-3 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Programming Fundamentals
             </h1>
             </div>
             </Link>
 
             <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[260px] rounded-b-xl shadow-black shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/web2.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
                 width={250}
               />
-              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-7 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Web2 Using NextJS
             </h1>
             </div>
             </Link>
 
             <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[260px] rounded-b-xl shadow-black shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/earn.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
                 width={250}
               />
-              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-7 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Earn as You Learn
             </h1>
             </div>
@@ -169,98 +168,98 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="h-[680px] w-full bg-[#fdfdfd] py-5 px-16">
-        <h1 className=" py-5 px-2 text-[34px] font-extrabold text-[#044e83]">
+      <div className="h-[900px] w-full bg-[#fdfdfd] py-7 px-16">
+        <h1 className=" py-7 px-2 text-[40px] font-extrabold text-[#044e83]">
           Advanced Courses
         </h1>
 
         <div className="h-[300px] w-full bg-[#fdfdfd] p-2 grid grid-cols-4 gap-16 ">
           
             <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[300px] rounded-b-2xl shadow-slate-300 shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/artificial.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
-                width={250}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
+                width={270}
               />
-              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Artificaial Intelligence
             </h1>
             </div>
             </Link>
 
             <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[300px] rounded-b-2xl shadow-slate-300 shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/web3.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
-                width={250}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
+                width={270}
               />
-              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Web 3 and Metaverse
             </h1>
             </div>
             </Link>
 
             <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[300px] rounded-b-2xl shadow-slate-300 shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/cloudNative.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
-                width={250}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
+                width={270}
               />
-              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-5 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Cloud-Native Computing
             </h1>
             </div>
             </Link>
 
              <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[300px] rounded-b-2xl shadow-slate-300 shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/IoT.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
-                width={250}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
+                width={270}
               />
-              <h1 className="px-4 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Ambient Computing and IoT
             </h1>
             </div>
             </Link>        
 
              <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[300px] rounded-b-2xl shadow-slate-300 shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/bioinformation.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
-                width={250}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
+                width={270}
               />
-              <h1 className="px-4 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-4 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Genomics and Bioinformatics
             </h1>
             </div>
             </Link>        
 
              <Link href={"/"}>
-            <div className="h-[200px] w-[250px] rounded-b-2xl shadow-black shadow-2xl hover:scale-[1.1]">
+            <div className="h-[300px] rounded-b-2xl shadow-slate-300 shadow-2xl hover:scale-[1.1]">
               <Image
                 src="/images/network.png"
                 alt=""
-                className="h-[170px] w-full object-cover rounded-t-2xl shadow-sm "
-                height={170}
-                width={250}
+                className="h-[220px] w-full object-cover rounded-t-2xl shadow-sm "
+                height={220}
+                width={270}
               />
-              <h1 className="px-2 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[18px]">
+              <h1 className="px-2 py-2 bg-[#FFFFFF] text-center rounded-b-2xl text-[#52525b] font-bold text-[22px]">
               Network Programmability and Automation
             </h1>
             </div>

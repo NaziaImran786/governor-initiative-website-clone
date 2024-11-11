@@ -8,19 +8,19 @@ const Navbar = () => {
 <div className="bg-[#044E83] w-[100%] h-[80px] px-4 py-6 flex  m-0 p-0 sticky top-0 z-30 ">
         <Link href="/">
         <Image
-          className="h-[113px] w[90px] ml-5"
+          className="h-[113px] w-[100px] ml-5"
           src="/images/logo-governor.png"
           alt="logo-governor.png"
-          width={90}
+          width={100}
           height={113}
         />
         </Link>
 
-        <h1 className="text-shdow text-[20px] text-[#B9D8F3] font-extrabold  px-20">
+        <h1 className="text-shdow text-[22px] text-[#B9D8F3] font-extrabold  px-20">
           Tuition Free Program on Latest Technologies
         </h1>
 
-        <ul className="flex  gap-10 text-[16px] text-[#faf9f6]">
+        <ul className="flex px-20 gap-16 text-[18px] text-[#faf9f6]">
           <li>
             <Link href="/">Home</Link>
           </li>
